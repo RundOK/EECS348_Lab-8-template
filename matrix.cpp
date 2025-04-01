@@ -130,9 +130,6 @@ void Matrix::print_matrix() const{
     
 }
 
-// e.g. for the constructor:
-
 Matrix::Matrix(size_t N) {
     // initialize an empty NxN matrix
 }
-

@@ -9,6 +9,8 @@ public:
     Matrix(std::size_t N);
     Matrix(std::vector<std::vector<int>> nums);
 
+    static std::vector<Matrix> read_from_file(const std::string &filename);
+
     Matrix operator+(const Matrix &rhs) const;
     Matrix operator*(const Matrix &rhs) const;
     void set_value(std::size_t i, std::size_t j, int n);

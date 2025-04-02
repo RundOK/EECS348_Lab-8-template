@@ -129,7 +129,3 @@ void Matrix::print_matrix() const{
     }
     
 }
-
-Matrix::Matrix(size_t N) {
-    // initialize an empty NxN matrix
-}
